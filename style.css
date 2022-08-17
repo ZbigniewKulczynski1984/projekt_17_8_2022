@@ -29,3 +29,35 @@ nav li a{
 nav li a:hover{
     color: deepskyblue;
 }
+/*header*/
+.header-img{
+    position: relative;
+    height: 400px;
+    
+    background-image: url('img/tło.jpg');
+
+    
+    background-size:contain;
+    background-repeat:repeat;
+    background-position: 0 50%;
+}
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    color:#fff;
+    text-align: center;
+    z-index:2;
+}
+.header-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 3,27,0.4);
+    
+}
+header p {
+    padding: 3px;
+}
