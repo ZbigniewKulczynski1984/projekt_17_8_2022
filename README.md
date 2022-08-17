@@ -3,3 +3,6 @@
 ##Build with
 -HTML
 -CSS
+
+##Author
+Zbigniew Kulczyński
