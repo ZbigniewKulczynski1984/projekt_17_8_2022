@@ -61,3 +61,25 @@ nav li a:hover{
 header p {
     padding: 3px;
 }
+/*main*/
+main{
+    margin: 50px auto;
+    width: 1200px;
+}
+h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.about-us-box{
+    position: relative;
+    height: 200px;
+    margin: 40px 0;
+    background-attachment: fixed;
+    background-position: center;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    overflow: hidden;
+    z-index: 10;
+    
+}
